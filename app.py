@@ -2,6 +2,9 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# Routes
+from user import routes
+
 ### Renders a specific template after we define the route ###
 @app.route('/')
 def home():

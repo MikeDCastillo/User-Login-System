@@ -1,0 +1,2 @@
+# this '__init__.py' file will let us treat the user folder as a python module that we can import into other python folders. 
+# the init part of the python file does not have to contain anything for this to work
